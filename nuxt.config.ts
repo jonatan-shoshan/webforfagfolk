@@ -48,9 +48,6 @@ export default defineNuxtConfig({
       ]
     }
   },
-  nitro: {
-    preset: 'cloudflare-pages'
-  },
   tailwindcss: {
     cssPath: '~/assets/css/main.css'
   }

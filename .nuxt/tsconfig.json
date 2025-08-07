@@ -110,7 +110,7 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors"
+        "./ui.colors.mjs"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
@@ -133,11 +133,8 @@
       "#tailwind-config": [
         "./tailwind/expose"
       ],
-      "#tailwind-config/*": [
-        "./tailwind/expose/*"
-      ],
       "#app-manifest": [
-        "./manifest/meta/dev.json"
+        "./manifest/meta/173ea2d7-c3bb-4da6-83a4-ee11ac070f1e.json"
       ],
       "#components": [
         "./components"
@@ -199,6 +196,6 @@
     "../node_modules/@nuxt/telemetry/node_modules",
     "../node_modules/runtime/server",
     "../node_modules/dist/runtime/server",
-    "dev"
+    "../.output"
   ]
 }
