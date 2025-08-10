@@ -20,6 +20,7 @@ interface _GlobalComponents {
     'Pricing': typeof import("../components/Pricing.vue")['default']
     'Process': typeof import("../components/Process.vue")['default']
     'Services': typeof import("../components/Services.vue")['default']
+    'SvgoLogo': typeof import("../assets/icons/logo")['default']
     'UAccordion': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Accordion.vue")['default']
     'UAlert': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Alert.vue")['default']
     'UAvatar': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue")['default']
@@ -83,6 +84,7 @@ interface _GlobalComponents {
     'NuxtPicture': typeof import("../node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue")['default']
     'Icon': typeof import("../node_modules/@nuxt/icon/dist/runtime/components/index")['default']
     'ColorScheme': typeof import("../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue")['default']
+    'NuxtIcon': typeof import("../node_modules/nuxt-svgo/dist/runtime/components/nuxt-icon.vue")['default']
     'NuxtPage': typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']
     'NoScript': typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']
     'Link': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Link']
@@ -105,6 +107,7 @@ interface _GlobalComponents {
     'LazyPricing': LazyComponent<typeof import("../components/Pricing.vue")['default']>
     'LazyProcess': LazyComponent<typeof import("../components/Process.vue")['default']>
     'LazyServices': LazyComponent<typeof import("../components/Services.vue")['default']>
+    'LazySvgoLogo': LazyComponent<typeof import("../assets/icons/logo")['default']>
     'LazyUAccordion': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Accordion.vue")['default']>
     'LazyUAlert': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Alert.vue")['default']>
     'LazyUAvatar': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue")['default']>
@@ -168,6 +171,7 @@ interface _GlobalComponents {
     'LazyNuxtPicture': LazyComponent<typeof import("../node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue")['default']>
     'LazyIcon': LazyComponent<typeof import("../node_modules/@nuxt/icon/dist/runtime/components/index")['default']>
     'LazyColorScheme': LazyComponent<typeof import("../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue")['default']>
+    'LazyNuxtIcon': LazyComponent<typeof import("../node_modules/nuxt-svgo/dist/runtime/components/nuxt-icon.vue")['default']>
     'LazyNuxtPage': LazyComponent<typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']>
     'LazyNoScript': LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']>
     'LazyLink': LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['Link']>
@@ -196,6 +200,7 @@ export const Industries: typeof import("../components/Industries.vue")['default'
 export const Pricing: typeof import("../components/Pricing.vue")['default']
 export const Process: typeof import("../components/Process.vue")['default']
 export const Services: typeof import("../components/Services.vue")['default']
+export const SvgoLogo: typeof import("../assets/icons/logo")['default']
 export const UAccordion: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Accordion.vue")['default']
 export const UAlert: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Alert.vue")['default']
 export const UAvatar: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue")['default']
@@ -259,6 +264,7 @@ export const NuxtImg: typeof import("../node_modules/@nuxt/image/dist/runtime/co
 export const NuxtPicture: typeof import("../node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue")['default']
 export const Icon: typeof import("../node_modules/@nuxt/icon/dist/runtime/components/index")['default']
 export const ColorScheme: typeof import("../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue")['default']
+export const NuxtIcon: typeof import("../node_modules/nuxt-svgo/dist/runtime/components/nuxt-icon.vue")['default']
 export const NuxtPage: typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']
 export const NoScript: typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']
 export const Link: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Link']
@@ -281,6 +287,7 @@ export const LazyIndustries: LazyComponent<typeof import("../components/Industri
 export const LazyPricing: LazyComponent<typeof import("../components/Pricing.vue")['default']>
 export const LazyProcess: LazyComponent<typeof import("../components/Process.vue")['default']>
 export const LazyServices: LazyComponent<typeof import("../components/Services.vue")['default']>
+export const LazySvgoLogo: LazyComponent<typeof import("../assets/icons/logo")['default']>
 export const LazyUAccordion: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Accordion.vue")['default']>
 export const LazyUAlert: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Alert.vue")['default']>
 export const LazyUAvatar: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue")['default']>
@@ -344,6 +351,7 @@ export const LazyNuxtImg: LazyComponent<typeof import("../node_modules/@nuxt/ima
 export const LazyNuxtPicture: LazyComponent<typeof import("../node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue")['default']>
 export const LazyIcon: LazyComponent<typeof import("../node_modules/@nuxt/icon/dist/runtime/components/index")['default']>
 export const LazyColorScheme: LazyComponent<typeof import("../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue")['default']>
+export const LazyNuxtIcon: LazyComponent<typeof import("../node_modules/nuxt-svgo/dist/runtime/components/nuxt-icon.vue")['default']>
 export const LazyNuxtPage: LazyComponent<typeof import("../node_modules/nuxt/dist/pages/runtime/page")['default']>
 export const LazyNoScript: LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['NoScript']>
 export const LazyLink: LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['Link']>

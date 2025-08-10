@@ -1,5 +1,6 @@
 /// <reference types="@nuxt/ui" />
 /// <reference types="@nuxt/image" />
+/// <reference types="nuxt-svgo" />
 /// <reference types="@nuxtjs/tailwindcss" />
 /// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/telemetry" />

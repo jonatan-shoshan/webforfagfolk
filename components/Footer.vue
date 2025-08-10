@@ -6,26 +6,30 @@
         <div>
           <h3 class="text-2xl font-bold mb-4">WebForFagfolk.dk</h3>
           <p class="text-gray-300 leading-relaxed">
-            Vi laver simple, effektive hjemmesider til fagfolk og små erhverv. 
+            Vi laver simple, effektive hjemmesider til fagfolk og små erhverv.
             Ingen bøvl, ingen smarte ord – bare noget der virker.
           </p>
         </div>
-        
+
         <!-- Contact -->
         <div>
           <h4 class="text-lg font-semibold mb-4">Kontakt</h4>
           <div class="space-y-3">
             <div class="flex items-center gap-3">
-              <Icon name="lucide:mail" class="h-5 w-5 text-gray-400" />
+              <Icon
+                name="lucide:mail"
+                class="h-5 w-5 text-gray-400" />
               <span class="text-gray-300">kontakt@webforfagfolk.dk</span>
             </div>
             <div class="flex items-center gap-3">
-              <Icon name="lucide:phone" class="h-5 w-5 text-gray-400" />
-              <span class="text-gray-300">22 33 44 55</span>
+              <Icon
+                name="lucide:phone"
+                class="h-5 w-5 text-gray-400" />
+              <span class="text-gray-300">60 54 55 54</span>
             </div>
           </div>
         </div>
-        
+
         <!-- Services -->
         <div>
           <h4 class="text-lg font-semibold mb-4">Vores services</h4>
@@ -38,7 +42,7 @@
           </ul>
         </div>
       </div>
-      
+
       <div class="border-t border-gray-700 mt-8 pt-8 text-center">
         <p class="text-gray-400">
           © 2024 WebForFagfolk.dk. Alle rettigheder forbeholdt.
@@ -47,3 +51,4 @@
     </div>
   </footer>
 </template>
+

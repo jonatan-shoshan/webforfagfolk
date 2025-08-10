@@ -6,15 +6,15 @@
           👣 Sådan foregår det
         </h2>
       </div>
-      
+
       <div class="max-w-4xl mx-auto">
         <div class="grid gap-8">
-          <div 
-            v-for="(step, index) in steps" 
-            :key="index" 
-            class="flex items-start gap-6"
-          >
-            <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+          <div
+            v-for="(step, index) in steps"
+            :key="index"
+            class="flex items-start gap-6">
+            <div
+              class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
               {{ step.number }}
             </div>
             <div class="flex-1 pt-2">
@@ -30,20 +30,21 @@
 <script setup>
 const steps = [
   {
-    number: "1",
-    title: "Du kontakter os og fortæller lidt om din forretning"
+    number: '1',
+    title: 'Du kontakter os og fortæller lidt om din forretning',
   },
   {
-    number: "2", 
-    title: "Vi sender dig et forslag og fast pris"
+    number: '2',
+    title: 'Vi sender dig et forslag og fast pris',
   },
   {
-    number: "3",
-    title: "Du godkender – og vi går i gang"
+    number: '3',
+    title: 'Du godkender – og vi går i gang',
   },
   {
-    number: "4",
-    title: "Din nye hjemmeside er klar inden for 3-5 dage"
-  }
-];
+    number: '4',
+    title: 'Din nye hjemmeside er klar inden for 3-5 dage',
+  },
+]
 </script>
+

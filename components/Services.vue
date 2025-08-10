@@ -6,18 +6,19 @@
           🛠️ Hvad vi tilbyder
         </h2>
       </div>
-      
+
       <div class="grid md:grid-cols-3 gap-8">
-        <div 
-          v-for="(service, index) in services" 
-          :key="index" 
-          class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-        >
+        <div
+          v-for="(service, index) in services"
+          :key="index"
+          class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
           <div class="text-blue-600 mb-4">
-            <Icon :name="service.icon" class="h-8 w-8" />
+            <Icon
+              :name="service.icon"
+              class="h-8 w-8" />
           </div>
           <h3 class="text-xl font-semibold text-gray-900 mb-4">
-            🔹 {{ service.title }}
+            {{ service.title }}
           </h3>
           <p class="text-gray-600 leading-relaxed">
             {{ service.description }}
@@ -31,19 +32,23 @@
 <script setup>
 const services = [
   {
-    icon: "lucide:globe",
-    title: "Hjemmesider der virker",
-    description: "Få en flot og brugervenlig side, der viser hvem du er, hvad du tilbyder, og hvordan kunderne kontakter dig."
+    icon: 'lucide:globe',
+    title: 'Hjemmesider der virker',
+    description:
+      'Få en flot og brugervenlig side, der viser hvem du er, hvad du tilbyder, og hvordan kunderne kontakter dig.',
   },
   {
-    icon: "lucide:settings",
-    title: "Tilpasset dit fag",
-    description: "Uanset om du er VVS'er, murer, elektriker, mekaniker, maler eller andet – vi tilpasser siden til netop din virksomhed."
+    icon: 'lucide:settings',
+    title: 'Tilpasset dit fag',
+    description:
+      "Uanset om du er VVS'er, murer, elektriker, mekaniker, maler eller andet – vi tilpasser siden til netop din virksomhed.",
   },
   {
-    icon: "lucide:clock",
-    title: "Fast pris – hurtig levering",
-    description: "Ingen overraskelser. Du får en fast pris og en side klar på få dage."
-  }
-];
+    icon: 'lucide:clock',
+    title: 'Fast pris – hurtig levering',
+    description:
+      'Ingen overraskelser. Du får en fast pris og en side klar på få dage.',
+  },
+]
 </script>
+
